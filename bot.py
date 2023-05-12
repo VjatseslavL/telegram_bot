@@ -1,10 +1,9 @@
 import requests
 import telebot
 from bs4 import BeautifulSoup
-import string
-import re
+import json
 
-bot = telebot.TeleBot("6101624288:AAG9lUqHj5_EHFxVdTF1bRc6rXcVKl1Dnec")
+bot = telebot.TeleBot("")  # ваш токен
 
 def add_user(user_id):
     data_user = {
